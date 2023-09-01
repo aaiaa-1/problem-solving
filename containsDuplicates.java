@@ -16,7 +16,6 @@ class Solution {
         return false;
     }
 }
-
 /*
     when i did this simple solution :
         class Solution {

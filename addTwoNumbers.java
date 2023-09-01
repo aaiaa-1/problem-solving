@@ -27,7 +27,6 @@ class Solution {
                 //It's a placeholder or sentinel node that serves as the starting point of a new linked list. 
                 // It's especially useful when you're building a new linked list while iterating through another linked list, as it simplifies the process of linking nodes together
         ListNode current = dummy;  
-
         while (l1 != null || l2 != null || carry != 0) {
             int sum = carry;
             if (l1 != null) {
