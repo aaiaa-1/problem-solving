@@ -4,7 +4,6 @@
             Input: a = "11", b = "1"
             Output: "100"
 */
-
 class Solution {
     public String addBinary(String a, String b) {
         int n = Math.max(a.length(), b.length()); // Get the maximum length

@@ -11,7 +11,6 @@ class Solution {
                 maxProfit = Math.max(maxProfit, currentProfit);
             }
         }
-
         return maxProfit;
     }
 }

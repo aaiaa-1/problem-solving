@@ -14,7 +14,6 @@ class Solution {
         if (head == null || head.next == null) {
             return false; // No cycle if there are less than 2 nodes
         }
-        
         ListNode slow = head;
         ListNode fast = head.next;
 

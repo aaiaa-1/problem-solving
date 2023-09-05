@@ -18,7 +18,6 @@
     ==> we used dynamic programming for this problem
 */
 
-
 class Solution {
     public int climbStairs(int n) {
         if (n <= 2) {

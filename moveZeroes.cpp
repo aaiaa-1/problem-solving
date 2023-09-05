@@ -19,7 +19,6 @@ public:
                 nonZeroIndex++;
             }
         }
-        
         // Fill the remaining elements with zeros
         for (int i = nonZeroIndex; i < n; i++) {
             nums[i] = 0;
