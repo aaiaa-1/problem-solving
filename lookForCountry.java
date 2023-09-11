@@ -12,7 +12,7 @@ class Main{
 
         //create list of countries 
         List<String> G =  new ArrayList<String>(){
-            { 
+            {  
                 add("Ghana");
                 add("Greenland");                
                 add("Greece");  
