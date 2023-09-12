@@ -11,7 +11,7 @@
         Thus, the result should be [1,2,4].
 */
 
-class Solution {
+class Solution1 {
     public int[] plusOne(int[] digits) {
         return addOne(digits, digits.length - 1);
     }
@@ -35,20 +35,20 @@ class Solution {
 
 
 //my previous implementation
-class Solution0 {
-    public int[] plusOne(int[] digits) {
-        int i = 0;
-        while ( i!= digits.length - 1){
-            i++;
-        }
-        if (digits[i] == 9){
-            int[] newArray = new int[digits.length + 1];
-            System.arraycopy(digits, 0, newArray, 0, digits.length);
-            newArray[i]=1;
-            newArray[i+1]=0;
-            return newArray;
-        }
-        digits[i]++;
-        return digits;
-    }
-}
+//class Solution0 {
+//    public int[] plusOne(int[] digits) {
+//        int i = 0;
+//        while ( i!= digits.length - 1){
+//            i++;
+//        }
+//        if (digits[i] == 9){
+//            int[] newArray = new int[digits.length + 1];
+//            System.arraycopy(digits, 0, newArray, 0, digits.length);
+//            newArray[i]=1;
+//            newArray[i+1]=0;
+//            return newArray;
+//        }
+//        digits[i]++;
+//        return digits;
+//    }
+//}
